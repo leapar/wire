@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/videojs/video-js.min.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    //script(src='/videojs/video.js')
+    script(src='/socket.io/socket.io.js')
+    script(src='/javascripts/jquery.min.js')
+    script(src='/javascripts/socket.js')
+    script(src='/javascripts/config.js')
+    block script
+  body(scoll="no")
+    block content

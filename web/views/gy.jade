@@ -1,0 +1,8 @@
+extends layout
+
+block script
+  script(src='/videojs/video.js')
+  script(src='/javascripts/gy.js')
+block content
+  video#video.video-js.vjs-default-skin(style='width:100%;height:100%;text-align: center;bottom: 0px;position: fixed;',data-src="/videos/gy/#{mp4}.mp4",data-index="#{mp4}")
+  //embed#video.video(width="100%",height="100%",type="application/x-vlc-plugin",pluginspage="http://www.videolan.org",version="VideoLAN.VLCPlugin.2",controls="false",data-src="/videos/gy/#{mp4}.mp4",data-index="#{mp4}")

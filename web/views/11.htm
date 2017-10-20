@@ -1,0 +1,25 @@
+
+<body style="padding:0;margin: 0px">
+	<embed type="application/x-vlc-plugin" pluginspage="http://www.videolan.org" version="VideoLAN.VLCPlugin.2" id="vlc" 
+	controls ="false" width="100%" height="100%"  loop="true" extra="--video-filter=transform --transform-type=90" ></embed>
+	
+	<script language="Javascript">
+		var vlc = document.getElementById("vlc");
+		//vlc.audio.toggleMute();
+		vlc.video.aspectRatio  = "16:9";
+		vlc.playlist.add("file:///e:/gyjc/web/public/videos/gy/1-90.mp4");
+		//vlc.video.fullscreen = true;
+		vlc.playlist.play();
+		
+		 function   callExe()  
+   {  
+     
+         // new ActiveXObject("Wscript.Shell").run("notepad.exe D:\\a.png.txt");
+         //
+         new ActiveXObject("Wscript.Shell").run("vlc 1.mp4 --video-filter=transform --transform-type=90  --fullscreen --no-video-title --control=dsdfs");
+
+    
+   }
+   callExe()  ;
+	</script>
+</body>
