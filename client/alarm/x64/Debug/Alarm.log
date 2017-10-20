@@ -1,0 +1,14 @@
+﻿Build started 2016/9/30 14:41:56.
+     1>Project "E:\GYJC\client\alarm\Alarm.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\VC\bin\x86_amd64\CL.exe /c /I../inc /Zi /nologo /W4 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D D_MBCS /D _VC80_UPGRADE=0x0600 /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Debug/Alarm.pch" /Fo".\Debug/" /Fd".\Debug/vc110.pdb" /Gd /TP /errorReport:prompt Alarm.cpp AlarmDlg.cpp
+         AlarmDlg.cpp
+     1>AlarmDlg.cpp : fatal error C1853: “.\Debug/Alarm.pch”预编译头文件来自编译器的早期版本，或者预编译头为 C++ 而在 C 中使用它(或相反)
+         Alarm.cpp
+     1>Alarm.cpp : fatal error C1853: “.\Debug/Alarm.pch”预编译头文件来自编译器的早期版本，或者预编译头为 C++ 而在 C 中使用它(或相反)
+         正在生成代码...
+     1>Done Building Project "E:\GYJC\client\alarm\Alarm.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.40
